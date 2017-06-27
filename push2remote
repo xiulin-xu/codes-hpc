@@ -1,0 +1,4 @@
+#!/bin/sh
+#rsync -auvsz .. summer:/mnt/data/users/dm4/vol12/xuxiulin62_1930
+rsync -a --exclude='SSA-16/' --exclude='.git/' --exclude='pull2remote' /home/xiulin/Dropbox/My_doc/work/summer\ supercomputing\ academy/codes-hpc bluegene:/home/edu-vmk-acad17-104 
+rsync -a --exclude='SSA-16/' --exclude='.git/' --exclude='pull2remote' /home/xiulin/Dropbox/My_doc/work/summer\ supercomputing\ academy/codes-hpc summer:/mnt/data/users/dm4/vol12/xuxiulin62_1930/_scratch
